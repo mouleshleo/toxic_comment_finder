@@ -53,16 +53,5 @@ detectBtn.addEventListener("click", () => {
 
 
 
-anime({
-    targets: '.square-box',
-    direction: 'alternate',
-    translateX: 1200,
-    backgroundColor: '#154d84',
-  borderRadius: ['0%', '50%'],
-  easing: 'easeInOutSine',
-  loop: 3,
-  color: '#fff',
-  duration: 2000,
-  });
 
 

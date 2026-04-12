@@ -6,6 +6,7 @@
     --brand-color: #154d84;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 
 }
 
@@ -56,6 +57,10 @@
     align-items: center;
     height: 90px;
 
+}
+
+section {
+  height: 100vh;
 }
 
 .header a {
@@ -142,11 +147,4 @@
 }
 
 
-.square-box {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    top: -70px;
-    left: 150px;
-    background-color: var(--brand-color);
-}
+
